@@ -7,7 +7,7 @@
 <title>JARVIS — Local AI Assistant</title>
 
 <meta name="description"
-      content="JARVIS is a local AI desktop assistant for Windows powered by Ollama.">
+content="JARVIS is a local AI desktop assistant for Windows powered by Ollama.">
 
 <style>
 
@@ -27,8 +27,6 @@ body {
     color: #f4f7fb;
     overflow-x: hidden;
 }
-
-/* ---------- BACKGROUND ---------- */
 
 body::before {
     content: "";
@@ -53,7 +51,7 @@ body::after {
     z-index: -1;
 }
 
-/* ---------- NAVBAR ---------- */
+/* NAVIGATION */
 
 nav {
     position: fixed;
@@ -103,7 +101,7 @@ nav a:hover {
     color: #ff8a1c;
 }
 
-/* ---------- HERO ---------- */
+/* HERO */
 
 .hero {
     min-height: 100vh;
@@ -213,7 +211,7 @@ nav a:hover {
     color: #ff9a45;
 }
 
-/* ---------- CORE ---------- */
+/* ANIMATED CORE */
 
 .core {
     position: relative;
@@ -296,7 +294,7 @@ nav a:hover {
     }
 }
 
-/* ---------- SECTIONS ---------- */
+/* SECTIONS */
 
 section {
     padding: 100px 7%;
@@ -316,7 +314,7 @@ section {
     color: #8f99a9;
 }
 
-/* ---------- FEATURES ---------- */
+/* FEATURES */
 
 .features {
     display: grid;
@@ -378,7 +376,7 @@ section {
     font-size: 14px;
 }
 
-/* ---------- TERMINAL ---------- */
+/* TERMINAL */
 
 .terminal-section {
     max-width: 1000px;
@@ -433,7 +431,7 @@ section {
     color: #70d39c;
 }
 
-/* ---------- INSTALL ---------- */
+/* INSTALLATION */
 
 .steps {
     max-width: 800px;
@@ -480,14 +478,16 @@ section {
     line-height: 1.5;
 }
 
-/* ---------- REQUIREMENTS ---------- */
+/* REQUIREMENTS */
 
 .requirements {
     max-width: 800px;
     margin: auto;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
 
     gap: 15px;
 }
@@ -511,7 +511,7 @@ section {
     font-size: 14px;
 }
 
-/* ---------- DOWNLOAD ---------- */
+/* DOWNLOAD */
 
 .download {
     text-align: center;
@@ -542,7 +542,7 @@ section {
     margin-bottom: 30px;
 }
 
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 
 footer {
     padding: 35px 7%;
@@ -563,7 +563,7 @@ footer a {
     text-decoration: none;
 }
 
-/* ---------- MOBILE ---------- */
+/* MOBILE */
 
 @media (max-width: 700px) {
 
@@ -614,7 +614,12 @@ footer a {
         <li><a href="#features">Features</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#requirements">Requirements</a></li>
-        <li><a href="https://github.com/RichChicken/JARVIS">GitHub</a></li>
+
+        <li>
+            <a href="https://github.com/RichChiken/JARVIS">
+                GitHub
+            </a>
+        </li>
     </ul>
 
 </nav>
@@ -625,13 +630,18 @@ footer a {
 <header class="hero">
 
     <div class="status">
+
         <div class="status-dot"></div>
+
         LOCAL AI • WINDOWS
+
     </div>
+
 
     <h1>
         JAR<span>VIS</span>
     </h1>
+
 
     <p>
         A local AI desktop assistant for Windows.
@@ -639,18 +649,20 @@ footer a {
         and talk to your AI — while keeping the AI running locally.
     </p>
 
+
     <div class="buttons">
 
         <a
             class="btn btn-primary"
-            href="https://github.com/RichChicken/JARVIS/releases/latest"
+            href="https://github.com/RichChiken/JARVIS/releases/tag/v1.0.0"
         >
             Download JARVIS
         </a>
 
+
         <a
             class="btn btn-secondary"
-            href="https://github.com/RichChicken/JARVIS"
+            href="https://github.com/RichChiken/JARVIS"
         >
             View on GitHub
         </a>
@@ -663,7 +675,9 @@ footer a {
     <div class="core">
 
         <div class="core-ring"></div>
+
         <div class="core-ring"></div>
+
         <div class="core-ring"></div>
 
         <div class="core-center"></div>
@@ -805,7 +819,7 @@ footer a {
 </section>
 
 
-<!-- TERMINAL -->
+<!-- COMMAND EXAMPLE -->
 
 <section>
 
@@ -827,7 +841,9 @@ footer a {
             <div class="terminal-top">
 
                 <div class="terminal-dot"></div>
+
                 <div class="terminal-dot"></div>
+
                 <div class="terminal-dot"></div>
 
             </div>
@@ -1041,9 +1057,10 @@ footer a {
             your own local AI assistant.
         </p>
 
+
         <a
             class="btn btn-primary"
-            href="https://github.com/RichChicken/JARVIS/releases/latest"
+            href="https://github.com/RichChiken/JARVIS/releases/tag/v1.0.0"
         >
             Download JARVIS
         </a>
@@ -1061,10 +1078,13 @@ footer a {
         © 2026 JARVIS
     </div>
 
+
     <div>
-        <a href="https://github.com/RichChicken/JARVIS">
+
+        <a href="https://github.com/RichChiken/JARVIS">
             GitHub
         </a>
+
     </div>
 
 </footer>
